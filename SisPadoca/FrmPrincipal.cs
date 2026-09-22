@@ -23,5 +23,12 @@ namespace SisPadoca
             FrmClientes CadClientes = new FrmClientes();
             CadClientes.ShowDialog();
         }
+
+        private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frmprodutos CadProdutos = new Frmprodutos();
+            CadProdutos.StartPosition = FormStartPosition.CenterScreen;
+            CadProdutos.ShowDialog();
+        }
     }
 }
