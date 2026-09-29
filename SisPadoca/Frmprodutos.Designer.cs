@@ -92,9 +92,11 @@
             // 
             // PtxImagem
             // 
+            PtxImagem.Image = Properties.Resources._11891902;
             PtxImagem.Location = new Point(62, 43);
             PtxImagem.Name = "PtxImagem";
-            PtxImagem.Size = new Size(197, 204);
+            PtxImagem.Size = new Size(201, 204);
+            PtxImagem.SizeMode = PictureBoxSizeMode.CenterImage;
             PtxImagem.TabIndex = 4;
             PtxImagem.TabStop = false;
             // 
